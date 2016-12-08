@@ -1,0 +1,2 @@
+# paralisados
+Conteúdo Jornalistico paralisados
