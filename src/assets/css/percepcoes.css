@@ -1,0 +1,77 @@
+#cont-geral.percepcoes		{background-image:url('../img/home-background.jpg'); background-position:center top; padding-bottom:0px; text-align:center;}
+
+#cont-geral h1				{margin-top:310px;}
+#cont-geral #holder-pers	{position:initial;}
+
+#cont-geral #box-percepcoes {position:relative; max-width:1100px; margin:0px auto; padding-bottom:380px;}
+
+/* personagens */
+
+.box-pers					{position:absolute; top:0px; width:356px;}
+.box-pers.label-l			{left:0px; text-align:right;}
+.box-foto					{position:relative; width:178px; height:178px; background-repeat:no-repeat; margin:0px auto; z-index:1;}
+.label-l .box-foto			{margin-right:0px;}
+.label-r .box-foto			{margin-left:0px;}
+.box-label					{background:#2e363b; margin-top:-21px; top:50%; width:185px; font-family: 'Open Sans', sans-serif;	font-size:17px; line-height:17px; color:#fff; font-weight:700; position:absolute; z-index:0; padding:11px 0px 13px;}
+.label-l .box-label			{left:0px; text-align:left;}
+.label-r .box-label			{right:0px; text-align:right;}
+.label-l strong				{margin-left:10px;}
+.label-r strong				{margin-right:10px;}
+.box-foto .over-tb			{margin-top:0px; width:178px; height:178px; position:absolute; z-index:2; border-radius:89px; cursor:pointer;}
+.box-foto:hover .over-tb	{margin-top:0px; background:rgba(255,255,255,0.5);}
+.box-foto .over-tb.on		{margin-top:0px; background:rgba(255,255,255,0.5);}
+
+#pers-maira					{top:549px; left:461px;}
+#pers-carlos				{top:35px; left:578px;}
+#pers-richard				{top:228px; left:731px;}
+#pers-nathalia				{top:421px; left:660px;}
+#pers-bianca				{top:421px; left:79px;}
+#pers-flavia				{top:228px; left:8px;}
+#pers-pamela				{top:35px; left:170px;}
+
+#pers-maira .box-foto		{background-image:url('../img/per-maira.png');}
+#pers-carlos .box-foto		{background-image:url('../img/per-carlos.png');}
+#pers-richard .box-foto		{background-image:url('../img/per-richard.png');}
+#pers-nathalia .box-foto	{background-image:url('../img/per-nathalia.png');}
+#pers-bianca .box-foto		{background-image:url('../img/per-bianca.png');}
+#pers-flavia .box-foto		{background-image:url('../img/per-flavia.png');}
+#pers-pamela .box-foto		{background-image:url('../img/per-pamela.png');}
+
+#box-percepcoes .cp-container{z-index:20; position:absolute; top:-11px; left:-11px; display:none;}
+#box-percepcoes .cp-play,
+#box-percepcoes .cp-pause	{font-size:0px;}
+
+.cliking					{left:0px; top:95px; position:absolute; z-index:30; width:64px; height:91px; background-image:url('../img/clicking-hand.png'); background-repeat:no-repeat;}
+#c-mobile					{display:none;}
+	
+
+/* end personagens */
+
+@media screen and (max-width:1099px){
+	#c-mobile					{display:inline;}
+	#c-desk						{display:none;}
+	#cont-geral h1				{margin-top:30px;}
+	#cont-geral #box-percepcoes	{padding-bottom:100px;}
+	.box-pers					{width:33%; position:relative; margin:30px auto 0px; float:left;}
+	.label-l .box-foto			{margin-right:auto;}
+	.label-r .box-foto			{margin-left:auto;}
+	.box-pers .box-label		{position:relative; margin:10px auto 0px; text-align:center;}
+	.box-pers .box-label strong	{margin:0px;}
+	
+	#pers-maira					{top:0px; left:0px;}
+	#pers-carlos				{top:0px; left:0px;}
+	#pers-richard				{top:0px; left:0px;}
+	#pers-nathalia	            {top:0px; left:0px;}
+	#pers-bianca	            {top:0px; left:0px;}
+	#pers-flavia	            {top:0px; left:0px;}
+	#pers-pamela	            {top:0px; left:0px;}
+	
+}
+
+@media screen and (max-width:679px){
+	.box-pers					{width:50%;}
+}
+
+@media screen and (max-width:449px){
+	.box-pers					{width:100%;}
+}
