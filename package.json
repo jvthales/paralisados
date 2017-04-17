@@ -1,7 +1,7 @@
 {
   "name": "paralisados",
   "accountName": "paralisados",
-  "version": "1.0.36",
+  "version": "1.0.39",
   "description": "Projeto Paralisados",
   "main": "gulpfile.js",
   "dependencies": {},
