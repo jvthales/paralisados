@@ -19,7 +19,7 @@ body > .loading					{position:fixed;}
 
 /* tarja laranja */
 			
-#tarj-brasileiros				{background:#ecb32a; height:27px;}
+#tarj-brasileiros				{background:#ecb32a; height:27px; display:none;}
 #logo-brasileiros				{float:left; width:81px; height:20px; margin:4px 0 0 8px; background-image:url("../img/logo-brasileiros.png"); background-repeat:no-repeat;}
 .box-redes						{float:right;}
 #footer	.box-redes				{margin-top:16px; margin-right:20px;}
@@ -39,7 +39,7 @@ body > .loading					{position:fixed;}
 #act-menu						{display:none;}
 #mob-h							{display:none;}
 	
-#header							{background:#030303; position:relative; z-index:980;}
+#header							{background:#030303; position:fixed; z-index:980; top:0px; left:0px; width:100%;}
 #header.fixed					{position:fixed; top:0px; left:0px; width:100%;}
 #menu .bt-menu					{float:left; margin-top:20px; height:27px; display:table; border-bottom:6px; border-color:transparent; border-style:solid;}
 #menu .bt-menu:not(:first-child){margin-left:12px; margin-right:0px;}
@@ -75,7 +75,7 @@ body > .loading					{position:fixed;}
 
 /* conteudo */
 
-#cont-geral						{padding-bottom:0px;}
+#cont-geral						{padding-bottom:0px; margin-top:52px;}
 
 .box-cont						{max-width:1100px; position:relative; margin:0px auto;}
 .box-cont-txt					{max-width:700px; position:relative; margin:0px auto;}
